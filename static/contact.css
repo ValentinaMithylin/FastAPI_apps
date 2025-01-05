@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", serif;
+    /* background-image: url('/static/plant.jpg'); */
+    /* background-size: 100% 100%; 
+    background-position: center center; 
+    background-repeat: no-repeat;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: transparent;
+    color: #000;
+    padding: 20px 0;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1; 
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin: 0;
+    height: auto;
+    width: 110px;
+    border-radius: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* -------------------------------  */
+
+.content {
+    width: 80%;
+}
+
+.content h1 {
+    font-weight: 500;
+    font-size: 70px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.content h1:after {
+    font-weight: 500;
+    font-size: 70px;
+    content: "."; 
+    color: green;
+}
+
+.content h5 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.heading {
+    /* background-color: aqua; */
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section1 {
+    flex: 1;
+}
+
+.section2 {
+    flex: 1;
+}
+
+.separator {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 40px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.message label {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.message input[type="text"] {
+    height: 40px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.message input[type="submit"] {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    width: 120px;
+    border: solid 1px green;
+    border-radius: 35px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.section2 i {
+    /* background-color: aqua; */
+    color: black;
+    padding-right: 15px;
+}
+
+.section2 h3 {
+    /* background-color: aquamarine;  */
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
